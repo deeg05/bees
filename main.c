@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
 	bbox.h = 100;
 
 	bees bees;
-	InitBees(&bees, 25000, bbox);
+	InitBees(&bees, 500000, bbox);
 	bees.ForceBBox = 0;
 	bees.x = bbox.x;
 	bees.y = bbox.y;

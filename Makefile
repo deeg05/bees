@@ -1,6 +1,6 @@
 CC := gcc
 
-CFLAGS := `pkg-config --cflags --libs --static sdl2 SDL2_image SDL2_ttf` -O3 -lm -lSDL2_image -lSDL2_ttf
+CFLAGS := `pkg-config --cflags --libs --static sdl2 SDL2_image SDL2_ttf` -O3 -Ofast -lm -lSDL2_image -lSDL2_ttf
 HDRS :=
 
 SRCS := main.c gamelogic.c mgfx.c
