@@ -1,8 +1,10 @@
 # SDL Bees
 
 ## How to build
-`make clean`
-`make all`
+```
+make clean
+make all
+```
 
 ## Cleaning
 `make clean`
