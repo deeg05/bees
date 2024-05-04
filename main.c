@@ -13,7 +13,7 @@
 
 float g = -0.163f;
 
-int main() {
+int main(int argc, char *argv[]) {
 
 	uint32_t win_width = 640, win_height = 480;
 

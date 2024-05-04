@@ -1,6 +1,6 @@
 CC := gcc
 
-CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O0 --std=c99 -Wall -lSDL2_image -lSDL2_ttf -lm -O3 -ffast-math -march=native
+CFLAGS := `pkg-config --cflags --libs --static sdl2 SDL2_image SDL2_ttf` -O3 -lm -lSDL2_image -lSDL2_ttf
 HDRS :=
 
 SRCS := main.c gamelogic.c mgfx.c
